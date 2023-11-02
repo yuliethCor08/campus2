@@ -4,18 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera Página web</title>
+    <style>
+      *{
+         color: gray;
+      }
+
+      p{
+         color: aqua;
+      }
+      li{
+         color: rgb(0, 16, 87);
+         font-size: 1.5em;
+      }
+      #text-html{
+         color: crimson;
+      }
+    </style>
 </head>
 <body style="background-color: #558196;">
     <h1 align = "center" style="color: #fff; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Mi Primera página Web</h1>
     <hr width = "50%" align="center">
 
     <p style="color: #fff;"><b> Lorem,</b> <i>ipsum </i>dolor sit amet <u>consectetur adipisicing </u>elit. Nihil, sequi 
-        <br>voluptate <strong>eius consequatur neque,</strong> minima <s>fugiat et</s> mollitia <sup>animi</sup> <sub>alias</sub>
+        <br>voluptate <strong class="teximport">eius consequatur neque,</strong> minima <s>fugiat et</s> mollitia <sup>animi</sup> <sub>alias</sub>
          <br>laudantium quae cumque soluta voluptas ab adipisci. Quis, accusantium quo!</p>
         
          <h2>Etiquetas ordenadas</h2>
          <ol>
-            <li>Python</li>
+            <li class="teximport">Python</li>
             <li>Html</li>
             <li>Css</li>
             <li>JavaScript</li>
@@ -23,27 +39,13 @@
 
          <ol start="3">
             <li>Python</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-         </ol>
-
-         <ol type="a">
-            <li>Python</li>
-            <li>Html</li>
-            <li>Css</li>
-            <li>JavaScript</li>
-         </ol>
-
-         <ol type="A" start="3">
-            <li>Python</li>
-            <li>Html</li>
+            <li class="teximport">Html</li>
             <li>Css</li>
             <li>JavaScript</li>
          </ol>
 
          <ol type="I">
-            <li>Python</li>
+            <li id="text-html">Python</li>
             <li>Html</li>
             <li>Css</li>
             <li>JavaScript</li>
@@ -61,7 +63,7 @@
             <li>Python</li>
             <li>Html</li>
             <li>Css</li>
-            <li>JavaScript</li>
+            <li class="teximport">JavaScript</li>
          </ul>
 
          <ul type = "disc">
@@ -74,7 +76,7 @@
          <ul type = "circle">
             <li>Python</li>
             <li>Html</li>
-            <li>Css</li>
+            <li class="teximport">Css</li>
             <li>JavaScript</li>
          </ul>
 
