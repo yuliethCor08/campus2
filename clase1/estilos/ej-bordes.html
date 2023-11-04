@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .uno{
+            /* height: 30; */
+            width: 20%;
+            margin: 20px;
+            padding: 20px;
+            border-color: green goldenrod red blue;
+            border-style: dotted dashed;
+            border-width: 5px;
+        }
+        .dos{
+            height: 30px;
+            width: 20%;
+            margin: 20px;
+            padding: 20px;
+            border-color: aqua black lightpink black;
+            border-style: solid;
+            border-width: 8px;
+        }
+        div .dos{
+            width: 85%;
+            margin: 0;
+        }
+        .cuatro{
+            /* height: 30px; */
+            width: 20%;
+            margin: 20px;
+            padding: 5px;
+            border: 3px solid black;
+        }
+        div .cuatro{
+            width: 95%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="uno">
+        Esta es una caja con diferentes tipos de bordes
+    </div>
+
+    <div class="dos">
+        Esta es una caja con diferentes tipos de bordes
+    </div>
+
+    <div class="uno">
+        <div class="dos">
+            Esta es una caja con diferentes tipos de bordes dentro de otra caja
+        </div>
+    </div>
+    <div class="cuatro">
+        <div class="cuatro">
+            <div class="cuatro">
+                <div class="cuatro">
+                    <div class="cuatro">
+                        <div class="cuatro">
+                            Esta es una caja dentro de cajas
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
