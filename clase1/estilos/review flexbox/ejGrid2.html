@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Grid - CSS</title>
+    <style>
+        .container{
+            background-color: #ddd;
+            padding: 10px;
+            display: grid;
+            /* grid-template-columns: auto auto auto; */
+            /*grid-template-columns: auto auto auto;*/
+            margin: 0 auto;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /* grid-template-row: 20% auto 30%; */
+            width: 80%;
+            height: 500px;
+            gap: 20px;
+            /* justify-content: space-between; */
+            /* align-content: center; */
+        }
+        .contenido{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            background-color: rgb(0, 0, 52);
+            color: white;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            border-radius: 50%;
+            
+        }
+        .elm{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elm contenido">
+            <h1>Grid Layout IV</h1>
+            Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Inventore ipsum quia veniam 
+            odio officiis provident aliquid optio natus 
+            accusamus. Nisi voluptates atque voluptatibus 
+            nam iste, nostrum quasi suscipit molestiae 
+            quisquam!
+        </div>
+        <div class="elm circle cmostaza"></div>
+        <div class="elm circle cazul"></div>
+        <div class="elm circle cgris"></div>
+        <div class="elm circle cmostaza"></div>
+        <div class="elm circle cmostaza"></div>
+        <div class="elm circle cgris"></div>
+        <div class="elm circle cgris"></div>
+        <div class="elm circle cazul"></div>
+    </div>
+</body>
+</html>

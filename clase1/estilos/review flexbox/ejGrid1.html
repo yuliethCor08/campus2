@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Grid - CSS</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin: 0 auto;
+            width: 60%;
+            height: 700px;
+            gap: 20px;
+        }
+        .items{
+            background-color: darkturquoise;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        .elem2{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .elem3{
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+        .elem8{
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items elem1">1</div>
+        <div class="items elem2">2</div>
+        <div class="items elem3">3</div>
+        <div class="items elem4">4</div>
+        <div class="items elem5">5</div>
+        <div class="items elem6">6</div>
+        <div class="items elem7">7</div>
+        <div class="items elem8">8</div>
+    </div>
+</body>
+</html>
