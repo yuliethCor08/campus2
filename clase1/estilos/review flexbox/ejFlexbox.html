@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: space-around;
+            flex-flow: row wrap;
+            align-items: stretch;
+            text-align: center;
+        }
+        .titulo{
+            height: 40px;
+            background-color: #00012b;
+            color: white;
+        }
+        .pie{
+            height: 30px;
+            background-color: darkgray;
+            color: white;
+        }
+        .cont{
+            line-height: 25px;
+            height: 75px;
+        }
+        .card{
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="titulo">Tarjeta Izquierda</div>
+            <div class="cont">Contenido del cuerpo <br>Contenido del cuerpo <br>Contenido del cuerpo</div>
+            <div class="pie">Pie</div>
+        </div>
+        <div class="card">
+            <div class="titulo">Tarjeta Centro</div>
+            <div class="cont">Contenido del cuerpo</div>
+            <div class="pie">Pie</div>
+        </div>
+        <div class="card">
+            <div class="titulo">Tarjeta Derecha</div>
+            <div class="cont">Contenido del cuerpo</div>
+            <div class="pie">Pie</div>
+        </div>
+    </div>
+</body>
+</html>

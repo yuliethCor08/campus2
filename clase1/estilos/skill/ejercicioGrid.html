@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación usando Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin: 0 auto;
+            width: 70%;
+            height: 250px;
+            gap: 10px;
+        }
+        .containerTwo{
+            /* margin: 20px 0; */
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* grid-template-columns: auto auto auto auto auto auto; */
+
+            margin: 30px auto;
+            /* grid-template-columns: 1fr 2fr 1fr; */
+            grid-template-rows: 30% auto;
+            width: 70%;
+            height: 250px;
+            gap: 10px;
+            /* justify-content: space-between; */
+            /* align-content: center; */
+            /* grid-template-areas: myAreas; */
+        }
+        .uno{
+            background-color: darkorange;
+        }
+        .dos{
+            background-color: teal;
+        }
+        .tres{
+            background-color: rgb(99, 0, 49);
+        }
+        .posicionUno{
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+
+        .containerThree{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            /* grid-template-columns: auto auto auto auto auto auto; */
+
+            margin: 30px auto;
+            grid-template-columns: 1fr 2fr;
+            width: 70%;
+            height: 250px;
+            gap: 10px;
+            /* justify-content: space-between; */
+            /* align-content: center; */
+            /* grid-template-areas: myAreas; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elemento uno"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento tres"></div>
+    </div>
+    <div class="containerTwo">
+        <div class="elemento uno"></div>
+        <div class="elemento uno"></div>
+        <div class="elemento uno"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento tres"></div>
+        <div class="elemento tres"></div>
+    </div>
+    <div class="containerThree">
+        <div class="elemento uno"></div>
+        <div class="elemento uno"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento tres"></div>
+        <div class="elemento tres"></div>
+    </div>
+    <div class="containerFour">
+        <div class="elemento uno"></div>
+        <div class="elemento uno"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento dos"></div>
+        <div class="elemento tres"></div>
+        <div class="elemento tres"></div>
+    </div>
+</body>
+</html>
