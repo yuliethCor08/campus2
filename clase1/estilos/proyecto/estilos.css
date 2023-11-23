@@ -70,6 +70,11 @@ main{
 .nav__title {
     font-weight: 300;
 }
+.sub2{
+    background-color: #333231;
+    color: #fff;
+    width: 100%;
+}
 
 .nav__link {
     margin-left: auto;
@@ -106,7 +111,7 @@ main{
 }
 
 
-/* Hero container */
+/* Contenido Poligono */
 
 .hero__container {
     max-width: 800px;
@@ -189,16 +194,7 @@ main{
     box-shadow: 0 0 30px -5px rgba(142, 142, 142, 0.463);
 }
 
-/* .about__icon {
-    width: 40px;
-} */
-
-/* Knowledge */
-
 .knowledge {
-    /* background-color: #ddd; */
-    /* background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px); */
-    /* background-size: 20px 20px; */
     background-position: 0 0, 10px 10px;
     overflow: hidden;
     margin-top: 50px;
@@ -206,7 +202,6 @@ main{
     background-size: cover;
     padding: 80px;
     border-radius: 20px;
-    /* width: 70%; */
     display: grid;
     margin: 150px auto;
 }
@@ -800,11 +795,11 @@ main{
     border:none;
     border-radius: 3px;
     color: rgb(209, 209, 209);
-    background: rgba(63, 114, 76, 0.7);
+    background: #333231;
 }
 
 .form-submit-btn input:hover{
-    background: rgba(56, 204, 93, 0.7);
+    background: #2c2a27;
     color: rgb(255, 255, 255);
 }
 
@@ -905,6 +900,30 @@ main{
     background-image: url(bogota.jpg);
 }
 
+.card:nth-of-type(4) .img__back{
+    background-image: url(bocagrande-desde-el-hotel.jpg);
+}
+
+.card:nth-of-type(5) .img__back{
+    background-image: url(medellin.jpg);
+}
+
+.card:nth-of-type(6) .img__back{
+    background-image: url(bogota.jpg);
+}
+
+.card:nth-of-type(7) .img__back{
+    background-image: url(bocagrande-desde-el-hotel.jpg);
+}
+
+.card:nth-of-type(8) .img__back{
+    background-image: url(medellin.jpg);
+}
+
+.card:nth-of-type(9) .img__back{
+    background-image: url(bogota.jpg);
+}
+
 .card:hover .img__back{
     bottom: -40px;
 }
@@ -933,7 +952,7 @@ main{
     padding: 10px 40px;
     margin-top: 20px;
     border: none;
-    background: #A6359D;
+    background: #333231;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -942,5 +961,5 @@ main{
 }
 
 .card .description input:hover{
-    background: #83277b;
+    background: #2c2a27;
 }
