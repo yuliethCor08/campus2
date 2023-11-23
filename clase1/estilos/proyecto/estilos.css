@@ -981,7 +981,7 @@ section {
 }
 
 .logo span {
-    color: #B70E21;
+    color: #333231;
 }
 
 .contact-wrapper {
@@ -992,9 +992,9 @@ section {
     padding: 1em;
 }
 
-.contact-form {
+/* .contact-form {
     background: #222222;
-}
+} */
 
 .contact-form form {
     display: grid;
@@ -1015,19 +1015,18 @@ section {
 }
 
 .contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
+.contact-form form input {
     width: 100%;
     padding: .7em;
     border: none;
     background: none;
     outline: 0;
     color: #fff;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid #333231;
 }
 
 .contact-form form button {
-    background: #B70E21;
+    background: #2b2826;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -1035,7 +1034,7 @@ section {
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: #333231;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
