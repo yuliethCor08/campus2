@@ -15,7 +15,7 @@ body {
 hr{
     /* width: 80%; */
     padding: 2px;
-    background-color: #333231; 
+    background-color: #024873; 
     border-style: none;
     border-radius: 2px;
 }
@@ -435,7 +435,7 @@ main{
 /* Footer */
 
 .footer{
-    background-color: #1D293F;
+    background-color: #0D0D0D;
 }
 
 .footer__title{
@@ -1049,22 +1049,3 @@ section {
     text-align: center;
     margin: 0 0 1rem 0;
 }
-
-/* LARGE SIZE */
-/* @media(min-width: 700px) {
-    body {
-        padding: 0 4em;
-    }
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .contact-wrapper > * {
-        padding: 2em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
-} */
