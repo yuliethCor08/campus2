@@ -678,6 +678,8 @@ main{
         clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 95%, 0 70%);
     }
 
+    
+
 }
 
 @media (max-width:600px){
@@ -691,7 +693,7 @@ main{
     .hero__paragraph{
         font-size: 1rem;
     }
-
+    
     .subtitle{
         font-size: 1.8rem;
     }
@@ -873,6 +875,7 @@ main{
         width: 100%;
     }
 
+
     .user-input-box:nth-child(2n){
         justify-content: space-between;
     }
@@ -915,6 +918,7 @@ main{
     .form-title{
         color: #fff;
     }
+    
 }
 
 /* Tarjetas */
@@ -928,7 +932,7 @@ main{
 }
 
 .card{
-    width: 300px;
+    width: 250px;
     margin: 10px;
     transition: all 300ms;
 }
