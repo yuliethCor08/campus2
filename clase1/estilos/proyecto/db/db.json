@@ -1,16 +1,60 @@
 {
-    "account": [{
-        "id": [],
-        "name": [],
-        "lastname": [],
-        "email": [],
-        "phone": [],
-        "password": []
-    }  
+    "usuarios": [{
+        "id": "1",
+        "name": "Carlos",
+        "lastname": "Diaz",
+        "email": "carlosd@hoer.com",
+        "namUsuario": "Carlosd",
+        "genero": "m",
+        "password": "1234"
+    },
+    {
+        "id": "2",
+        "name": "Andres",
+        "lastname": "Diaz",
+        "email": "andres@hoer.com",
+        "namUsuario": "Carlosd",
+        "genero": "m",
+        "password": "2345"
+    },
+    {
+        "id": "3",
+        "name": "Maria",
+        "lastname": "Diaz",
+        "email": "carlosd@hoer.com",
+        "namUsuario": "Carlosd",
+        "genero": "f",
+        "password": "3456"
+    },
+    {
+        "id": "4",
+        "name": "Andrea",
+        "lastname": "Diaz",
+        "email": "carlosd@hoer.com",
+        "namUsuario": "Carlosd",
+        "genero": "f",
+        "password": "4567"
+    },
+    {
+        "id": "5",
+        "name": "Carlos",
+        "lastname": "Diaz",
+        "email": "carlosd@hoer.com",
+        "namUsuario": "Carlosd",
+        "genero": "m",
+        "password": "5678"
+    }
     ],
-    "tiquet":[{
+    "Aerolinea":[{
+        "id": "1",
+        "marca": [],
+        "destino": [],
+        "horSalida": [],
+        "horLlegada": []
+    }],
+    "pasajeros":[{
         "id": [],
-        "price": [],
-        "destino": []
+        "genero":[],
+        "vuelo":[]
     }]
 }
